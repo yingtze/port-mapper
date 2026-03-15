@@ -40,29 +40,32 @@ chmod +x install.sh
 ./install.sh
 ```
 
-Setelah itu, jalankan dari mana saja:
+ meng-copy script ke  — folder yang sudah ada di PATH macOS — sehingga perintah  bisa dipanggil dari direktori mana saja, tidak harus dari folder project.
+
+Setelah install, cukup ketik dari mana saja:
 
 ```bash
 port-mapper list
 ```
 
-### Manual
+### Manual (tanpa install script)
 
 ```bash
-# Clone repo
 git clone https://github.com/yingtze/port-mapper.git
-
-# Buat executable dan copy ke PATH
 chmod +x port-mapper/port-mapper.sh
 sudo cp port-mapper/port-mapper.sh /usr/local/bin/port-mapper
 ```
 
-### Tanpa Instalasi (langsung jalankan)
+### Tanpa Instalasi (sekali pakai)
+
+Jika tidak ingin menginstal, jalankan langsung dari folder project:
 
 ```bash
 chmod +x port-mapper.sh
 ./port-mapper.sh list
 ```
+
+> **Catatan:** Cara ini mengharuskan kamu selalu berada di folder project saat menjalankan perintah.
 
 ---
 
