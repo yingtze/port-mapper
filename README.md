@@ -34,7 +34,7 @@ Tidak perlu Homebrew. Tidak perlu install apapun tambahan.
 ### Cara Cepat (Recommended)
 
 ```bash
-git clone https://github.com/yourusername/port-mapper.git
+git clone https://github.com/yingtze/port-mapper.git
 cd port-mapper
 chmod +x install.sh
 ./install.sh
@@ -50,7 +50,7 @@ port-mapper list
 
 ```bash
 # Clone repo
-git clone https://github.com/yourusername/port-mapper.git
+git clone https://github.com/yingtze/port-mapper.git
 
 # Buat executable dan copy ke PATH
 chmod +x port-mapper/port-mapper.sh

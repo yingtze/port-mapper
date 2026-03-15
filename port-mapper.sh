@@ -2,7 +2,7 @@
 # =============================================================================
 # Port Mapper v1.0.0
 # Lihat semua port yang sedang dipakai, proses mana yang pakai, kill dengan mudah
-# https://github.com/yourusername/port-mapper
+# https://github.com/yingtze/port-mapper
 # =============================================================================
 
 set -euo pipefail
